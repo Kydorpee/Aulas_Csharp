@@ -1,74 +1,105 @@
-﻿class Aula_08
+﻿using System.ComponentModel.Design;
+
+class Aula_08
 {
     static void Main()
     {
-        int select,v1, v2, Res;
+        int select; // Para trabalhar com as opçoes; 
+        int v1, v2, Res; // Para as demais!
+        double d1, d2, des; // Para divisão!
         string nome;
 
+        Console.Clear();
         Console.Write(" Qual seu nome?: ");
         nome = Console.ReadLine();
-
-        Console.WriteLine(" Olá {0}, Digite a Opção desejada:", nome);
-
-        Console.WriteLine(" 1 - Somar\n 2 - Subtração\n 3 - Multiplicação\n 4 - Divisão\n");
-        select = int.Parse(Console.ReadLine());
+        Console.Clear();
 
 
-        switch (select)
+        for (int i = 0; i < 1;) 
         {
-            case 1:
 
-                Console.WriteLine(" Vamos lá {0}!, Você escolheu Somar!",nome);
+            Console.WriteLine(" \nOlá {0}, Digite a Opção desejada: \n", nome);
 
-                Console.Write(" Digite o primimeiro numero: ");
-                v1 = int.Parse (Console.ReadLine());
-                Console.Write(" Digite o segundo numero: ");
-                v2 = int.Parse(Console.ReadLine());
+            Console.WriteLine(" 1 - Somar\n 2 - Subtração\n 3 - Multiplicação\n 4 - Divisão\n 0 - Sair\n");
+            select = int.Parse(Console.ReadLine());
 
-                Res = v1 + v2;
-                Console.WriteLine(" O valor de {0} somado a {1} é: {2}",v1,v2, Res);
-                break;
+            Console.Clear();
 
-            case 2:
+            switch (select)
+            {
+                case 1:
 
-                Console.WriteLine(" Vamos lá {0}, Você escolheu Subtrair!", nome);
-                Console.Write(" Digite o primeiro numero: ");
-                v1 = int.Parse(Console.ReadLine());
-                Console.Write(" Digite o segundo numero: ");
-                v2 = int.Parse(Console.ReadLine());
+                    Console.WriteLine("\n Vamos lá {0}!, Você escolheu Somar! \n", nome);
 
-                Res = v1 - v2;
-                Console.WriteLine(" O valor de {0} Subtraido por {1} é: {2}",v1,v2,Res);
-                break;
+                    Console.Write(" Digite o primeiro numero: ");
+                    v1 = int.Parse(Console.ReadLine());
+                    Console.Write(" Digite o segundo numero: ");
+                    v2 = int.Parse(Console.ReadLine());
 
-            case 3:
+                    Res = v1 + v2;
+                    Console.WriteLine("\n O valor de {0} somado a {1} é: {2} \n", v1, v2, Res);
+                    Console.ReadKey();
+                    break;
 
-                Console.WriteLine(" Vamos lá {0}, Você escolheu Multiplicar!", nome);
-                Console.Write(" Digite o Valor: ");
-                v1 = int.Parse(Console.ReadLine());
-                Console.Write(" Quantas vezes deseja Multiplicar?: ");
-                v2 = int.Parse(Console.ReadLine());
-                Res = v1 * v2;
-                Console.WriteLine(" {0} multiplicado por {1} é: {2}", v1, v2, Res);
+                case 2:
 
-                break;
+                    Console.WriteLine(" \nVamos lá {0}, Você escolheu Subtrair!\n", nome);
+                    Console.Write(" Digite o primeiro numero: ");
+                    v1 = int.Parse(Console.ReadLine());
+                    Console.Write(" Digite o segundo numero: ");
+                    v2 = int.Parse(Console.ReadLine());
 
-            case 4:
+                    Res = v1 - v2;
+                    Console.WriteLine("\n O valor de {0} Subtraido por {1} é: {2}\n", v1, v2, Res);
+                    Console.ReadKey();
 
-                Console.WriteLine(" Vamos lá {0}, Você escolheu Dividir!", nome);
-                Console.Write(" Digite o valor: ");
-                v1 = int.Parse(Console.ReadLine());
-                Console.Write(" Quantas vezes deseja dividir?: ");
-                v2 = int.Parse(Console.ReadLine());
-                Res = v1 / v2;
-                Console.WriteLine(" {0} dividido por {1} é: {2}", v1,v2,Res);
+                    break;
+
+                case 3:
+
+                    Console.WriteLine("\n Vamos lá {0}, Você escolheu Multiplicar!\n", nome);
+                    Console.Write(" Digite o Valor: ");
+                    v1 = int.Parse(Console.ReadLine());
+                    Console.Write(" Quantas vezes deseja Multiplicar?: ");
+                    v2 = int.Parse(Console.ReadLine());
+                    Res = v1 * v2;
+                    Console.WriteLine("\n {0} multiplicado por {1} é: {2}\n", v1, v2, Res);
+                    Console.ReadKey();
+
+                    break;
+
+                case 4:
+
+                    Console.WriteLine(" \nVamos lá {0}, Você escolheu Dividir!\n", nome);
+                    Console.Write(" Digite o valor: ");
+                    d1 = double.Parse(Console.ReadLine());
+                    Console.Write(" Quantas vezes deseja dividir?: ");
+                    d2 = double.Parse(Console.ReadLine());
+                    des = d1 / d2;
+                    Console.WriteLine(" \n{0} dividido por {1} é: {2}\n", d1, d2, des);
+                    Console.ReadKey();
 
 
-                break;
+                    break;
 
-            default:
-                break;
+                case 0:
+
+                    i = 1;
+                    Console.Clear();
+
+                    break;
+
+                default:
+                    Console.Clear();
+                    Console.WriteLine("\n Infelizmente a opção digitada esta invalida escolha novamente! \n");
+                    Console.ReadKey();
+
+                    break;
+            }
+        
+
         }
+        
 
 
     }
