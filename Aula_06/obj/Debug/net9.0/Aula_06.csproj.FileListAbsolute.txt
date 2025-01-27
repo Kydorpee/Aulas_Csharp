@@ -1,0 +1,14 @@
+C:\Users\pedro.costa\Desktop\Soluçoes\Aula_06\bin\Debug\net9.0\Aula_06.exe
+C:\Users\pedro.costa\Desktop\Soluçoes\Aula_06\bin\Debug\net9.0\Aula_06.deps.json
+C:\Users\pedro.costa\Desktop\Soluçoes\Aula_06\bin\Debug\net9.0\Aula_06.runtimeconfig.json
+C:\Users\pedro.costa\Desktop\Soluçoes\Aula_06\bin\Debug\net9.0\Aula_06.dll
+C:\Users\pedro.costa\Desktop\Soluçoes\Aula_06\bin\Debug\net9.0\Aula_06.pdb
+C:\Users\pedro.costa\Desktop\Soluçoes\Aula_06\obj\Debug\net9.0\Aula_06.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro.costa\Desktop\Soluçoes\Aula_06\obj\Debug\net9.0\Aula_06.AssemblyInfoInputs.cache
+C:\Users\pedro.costa\Desktop\Soluçoes\Aula_06\obj\Debug\net9.0\Aula_06.AssemblyInfo.cs
+C:\Users\pedro.costa\Desktop\Soluçoes\Aula_06\obj\Debug\net9.0\Aula_06.csproj.CoreCompileInputs.cache
+C:\Users\pedro.costa\Desktop\Soluçoes\Aula_06\obj\Debug\net9.0\Aula_06.dll
+C:\Users\pedro.costa\Desktop\Soluçoes\Aula_06\obj\Debug\net9.0\refint\Aula_06.dll
+C:\Users\pedro.costa\Desktop\Soluçoes\Aula_06\obj\Debug\net9.0\Aula_06.pdb
+C:\Users\pedro.costa\Desktop\Soluçoes\Aula_06\obj\Debug\net9.0\Aula_06.genruntimeconfig.cache
+C:\Users\pedro.costa\Desktop\Soluçoes\Aula_06\obj\Debug\net9.0\ref\Aula_06.dll
